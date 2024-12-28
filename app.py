@@ -4,7 +4,7 @@ import os
 from io import BytesIO
 
 st.set_page_config(page_title="Data Sweeper", layout="wide")
-st.title("This App is created by Hrishabh by Python")
+
 
 st.title("Data Visualizer")
 
