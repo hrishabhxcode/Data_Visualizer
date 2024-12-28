@@ -4,10 +4,11 @@ import os
 from io import BytesIO
 
 st.set_page_config(page_title="Data Sweeper", layout="wide")
+st.title("This App is created by Hrishabh by Python")
 
-st.title("Data Sweeper")
+st.title("Data Visualizer")
 
-st.write("Lorem IPSUM")
+st.write("This app will help to plot the graph between various parameters of CSV or Excel Documents")
 
 uploaded_file = st.file_uploader("Choose a CSV or Excel file", type=["csv", "xlsx"], accept_multiple_files=True)
 
